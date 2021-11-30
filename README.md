@@ -1,2 +1,4 @@
 # solid-giggle
-Portfolio website 
+Portfolio website to showcase Github projects and web-based applications
+
+Website can be seen at [Warrencode](https://warrencode.com)
