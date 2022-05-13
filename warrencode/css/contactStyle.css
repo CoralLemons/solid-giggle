@@ -38,7 +38,7 @@ p a{
 }
 
 .col{
-    margin: 10%;
+    display: inline-flex;
 }
 
 #premiseBox{
@@ -47,6 +47,7 @@ p a{
     background-color: #ffffff; /*inside box*/
     border: 0.5rem double #C69696;
     height: auto;
+    width: auto;
 }
 
 .boxFormat{
