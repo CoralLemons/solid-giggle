@@ -7,7 +7,7 @@ html{
     background: linear-gradient(#e66465, #9198e5);
     width: 6.25rem;
     height: 6.25rem;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .dice{
@@ -17,7 +17,7 @@ html{
     border: 0.5rem solid #C69696;
     left: 0.5rem;
     margin-top: 0.938rem;
-    width: fit-content;
+    width: max-content;
 }
 
 body{
