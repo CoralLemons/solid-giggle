@@ -6,53 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/aboutDev.css">
+    <link rel="stylesheet" type="text/css" href="/warrencode/css/aboutDev.css">
     <title>About the Developer</title>
 </head>
 <body>
     
   <header>
-    <div class="text-left">
-        <img id="wc-logo" src="/img/logo.jpg" class="rounded-circle" width="200" height="200" alt="warrencode logo">
+    <div>
+        <p id="warrencode-background-text">WarrenCode</p>
+        <p id="warrencode-foreground-text">WarrenCode</p>
+        <img id="wc-logo" src="/warrencode/img/logo.jpg" class="rounded-circle" width="200" height="200" alt="warrencode logo">
     </div>
-
-    <ul class="nav justify-content-center" id="nav-bar">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/html/project-landing.html">Projects</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/html/choreDice.html">Web Apps</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/html/aboutdev.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/html/contactPage.html">Contact</a>
-        </li>
-      </ul>
-</header>
+    <button id="home-tab-inactive" onclick="location.href = '/warrencode/index.html'">Home</button>
+    <button id="projects-tab-inactive" onclick="location.href = '/warrencode/html/project-landing.html'">Projects</button>
+    <button id="webapps-tab-inactive" onclick="location.href = '/warrencode/html/choreDice.html'">Web Apps</button>
+    <button id="about-tab-active" onclick="location.href = '/warrencode/html/aboutdev.html'">About</button>
+    <button id="contact-tab-inactive" onclick="location.href = '/warrencode/html/contactPage.html'">Contact</button>
+  </header>
     
-    <div class="boxFormat">
-        <div id="premiseBox">
-            <p>
-                <h4 class="text-center">Here are a few quick things about the Developer!</h4>
-                <br>
-                Computer Science Graduate of <a href="https://www.sfasu.edu/">SFASU</a>
-                <br>
-                <br>Hobbies
-                <ul>
-                    <li>Coding projects</li>
-                    <li>Gardening</li>
-                    <li>Learing new tech</li>
-                    <li>Video games</li>
-                    <li>Enjoying a nice book on the porch</li>
-                </ul>
-            </p>
-            
-        </div>
+    <div class="main-content">
+      <p>
+          <h4 style="text-align: center">Here are a few quick things about the Developer!</h4>
+          <br>
+          Computer Science Graduate of <a href="https://www.sfasu.edu/">SFASU</a>
+          <br>
+          <br>Hobbies
+          <ul>
+              <li>Coding projects</li>
+              <li>Gardening</li>
+              <li>Learing new tech</li>
+              <li>Video games</li>
+              <li>Enjoying a nice book on the porch</li>
+          </ul>
+      </p>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
