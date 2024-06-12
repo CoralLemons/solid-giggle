@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&Architects+Daughter&family=Indie+Flower&family=LXGW+WenKai+Mono+TC&display=swap');
 
 /* Base Styles/Reset */
-*,
-*:before,
-*:after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}/* all elements including before and after*/
 
 /* main pink: #FFCCCC
 *  dark pink: #C69696
@@ -39,17 +32,16 @@
 }
 
 html{
-    scroll-behavior: smooth;
     font-size: 1rem;
 }
 
 body{
     background-image: url(/img/lowContrastTileBackground.jpg);
-    font-family: var(--body-font-family);
+    font-family: 'LXGW WenKai Mono TC', monospace;
     font-size: 1.25rem; /* 16 px*/
     line-height: 1.5;
-    background-color: var(--main-color-blue);
-    color: var(--dark-color-selected);
+    background-color: #005C6D;
+    color: black;
     text-decoration: none;
     overflow-x: hidden;
 }
@@ -62,7 +54,7 @@ a{
 }
 
 a:hover{
-    color: var(--link-hover-color);
+    color: #9198e5;
 }
 
 .format-links{
@@ -80,13 +72,13 @@ ul{
 
 h5{
     color: black;
-    font-family: var(--link-font);
+    font-family: 'Indie Flower', cursive;
 }
 
 /*----- Reusable -----*/
 .intro{
     color: #000000;
-    font-family: var(--body-font-family);
+    font-family: 'LXGW WenKai Mono TC', monospace;
 }
 
 .boxFormat{
@@ -146,7 +138,7 @@ h5{
 /*----- Index Specific -----*/
 #wcTagAnimation{
     color: #000000;
-    font-family: var(--title-font-family);
+    font-family: 'Concert One', cursive;
     font-size: 1.5rem;
     text-shadow: 0.1875rem 0.1875rem 0 #ffcccc;
 }
