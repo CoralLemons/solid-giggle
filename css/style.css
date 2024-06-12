@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Shadows+Into+Light&display=swap&family=Red+Hat+Mono:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&Architects+Daughter&family=Indie+Flower&family=LXGW+WenKai+Mono+TC&display=swap');
 
 /* Base Styles/Reset */
 *,
@@ -31,8 +31,8 @@
     --link-hover-color: #9198e5;
     /*----- Font and sizing -----*/
     --title-font-family: 'Concert One', cursive;
-    --body-font-family: 'Red Hat Mono', monospace;
-    --link-font: 'Shadows Into Light', cursive;
+    --body-font-family: 'LXGW WenKai Mono TC', monospace;
+    --link-font: 'Indie Flower', cursive;
     --container-width: 96rem;
     --container-padding: 1.5rem;
     --section-vertical-spacing: 8rem;
@@ -66,7 +66,7 @@ a:hover{
 }
 
 .format-links{
-    font-family: var(--link-font);
+    font-family: "Architects Daughter", cursive;
 }
 
 img{
@@ -115,6 +115,10 @@ h5{
     width: 6.25rem;
     height: 6.25rem;
     display: inline-flex;
+}
+
+.accordion-header{
+    font-family: "Architects Daughter", cursive;
 }
 
 /*----- Header -----*/
